@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    height: 100%;
+}
+
 body {
     font-family: 'Outfit';
 }
@@ -14,6 +18,10 @@ body {
 .bg-container {
     background-color:  hsl(212, 45%, 89%);
     height: 100vh;
+}
+
+.size {
+    width: 600px;
 }
 
 .card-item {
@@ -24,12 +32,12 @@ body {
 .heading {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    /* font-size: 22px;  */
+    font-size: 24px;
 }
 
 .para {
     font-size: 15px;
-    color: hsl(212, 45%, 89%);
+    color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
 
